@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: helvetica;
+    color: black;
+  }
+  
+  h1 {
+      text-align:center;
+    color: chartreuse;
+  }
+  li {
+      color:yellow;
+  }
+  #name{
+      color:blue;
+  }
+  #color{
+      color: chocolate;
+  }
+  #age{
+      color: chartreuse;
+  }
+  #state{
+      color: red;
+  }
+  body {
+      background-color: darkgoldenrod;
+      background-image: url(https://miro.medium.com/max/2800/1*W7QpgyGBrYpD2VsL08XdaA.jpeg)
+  }
+  p {
+        text-align: center;
+        color: green;
+  }
+
+  div {
+    padding-top: 20px;
+    padding-left: 600px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    /* background-color: turquoise; */
+}
+footer {
+    position: absolute;
+    width:100%;
+    bottom:0;
+    /* background: #6cf; */
+}

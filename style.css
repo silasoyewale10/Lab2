@@ -1,10 +1,10 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     font-size: 16px;
     font-family: helvetica;
     color: black;
-  }
+  } */
   
   h1 {
       text-align:center;
@@ -27,10 +27,10 @@
   }
   body {
       background-color: darkgoldenrod;
-      background-image: url(https://miro.medium.com/max/2800/1*W7QpgyGBrYpD2VsL08XdaA.jpeg)
+      /* background-image: url(https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/4417/s300/cf-logo-shield.png) */
   }
   p {
-        text-align: center;
+        /* text-align: center; */
         color: green;
   }
 

@@ -8,10 +8,10 @@
   
   h1 {
       text-align:center;
-    color: chartreuse;
+        background-color: chartreuse;
   }
   li {
-      color:yellow;
+      color:black;
   }
   #name{
       color:blue;
@@ -29,21 +29,23 @@
       background-color: darkgoldenrod;
       /* background-image: url(https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/4417/s300/cf-logo-shield.png) */
   }
-  p {
-        /* text-align: center; */
+  /* p {
+        text-align: center;
         color: green;
-  }
+  } */
 
-  div {
+  /* div {
     padding-top: 20px;
     padding-left: 600px;
     padding-right: 20px;
     padding-bottom: 100px;
-    /* background-color: turquoise; */
-}
+    /* background-color: turquoise; 
+} */
 footer {
-    position: absolute;
+    background-color: blueviolet;
+    text-align: center;
+    /* position: absolute;
     width:100%;
     bottom:0;
-    /* background: #6cf; */
-}
+    background: #6cf; */
+} 

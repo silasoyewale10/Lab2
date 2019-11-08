@@ -74,10 +74,10 @@ for (var guess =0; guess < 4; guess++){
 var age = parseInt(prompt("How old is Silas' laptop"));
 console.log(typeof(age));
 if (age > 4){
-  alert("You answered " +  age + "and that's too high");
+  alert("You answered " +  age + " and that's too high");
   counter++;
 }else if (age < 4){
-  alert("You answered " + age + "and that's low");
+  alert("You answered " + age + " and that's low");
   counter++;
 } else if (age === 4) {
   alert("You answered " + age + " and you are right");
@@ -93,7 +93,7 @@ if (age > 4){
 }
 
 alert(name + " , " + " thank you for exploring the greatest guessing site that ever will be");
-alert ("You made " + (counter - 1) + "guesses in guessing how old Silas's laptop is");
+alert ("You made  " + (counter - 1) + " guesses in guessing how old Silas's laptop is");
 alert("The right answer is 4");
 
 var numbers = [3,6,9,12,15,18,21,24,27];
@@ -110,7 +110,7 @@ for (var start = 0; start < 6; start++){
     counter++;
   }
 }
-alert ("You made " + counter + "attempts");
+alert ("You made " + counter + " attempts");
 alert ("These are the right numbers " + numbers);
-alert ("Out of 7 questions, you answered " + counter_right + "right")
+alert ("Out of 7 questions, you answered " + counter_right + " right")
 
